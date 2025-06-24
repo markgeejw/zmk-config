@@ -18,7 +18,7 @@ layers:
   - G
   - H
   - {t: J, h: RSHFT}
-  - {t: K, h: LGUI}
+  - {t: K, h: RGUI}
   - {t: L, h: LALT}
   - {t: ;, h: RCTRL}
   - TAB
