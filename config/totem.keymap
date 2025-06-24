@@ -191,6 +191,7 @@
         bt_clr {
             bindings = <&bt BT_CLR>;
             key-positions = <20 31>;
+            layers = <6>;
         };
     };
 
