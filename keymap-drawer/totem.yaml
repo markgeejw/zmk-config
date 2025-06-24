@@ -119,9 +119,9 @@ layers:
   - '&mkp MCLK'
   NUMPAD:
   - '['
-  - '1'
-  - '2'
-  - '3'
+  - '7'
+  - '8'
+  - '9'
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -140,9 +140,9 @@ layers:
   - RCTRL
   - ENTER
   - '`'
-  - '7'
-  - '8'
-  - '9'
+  - '1'
+  - '2'
+  - '3'
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
