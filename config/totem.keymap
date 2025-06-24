@@ -231,7 +231,7 @@
          &kp Q          &kp W         &kp E         &kp R          &kp T        &kp Y        &kp U            &kp I         &kp O         &kp P
          &hm_l LCTRL A  &hm_l LALT S  &hm_l LGUI D  &hm_l LSHFT F  &kp G        &kp H        &hm_r RSHFT J    &hm_r LGUI K  &hm_r LALT L  &hm_r RCTRL SEMI
 &kp TAB  &kp Z          &kp X         &kp C         &kp V          &kp B        &kp N        &kp M            &kp COMMA     &kp DOT       &kp SLASH         &kp SINGLE_QUOTE
-                                      &lt 1 ESCAPE  &lt 1 SPACE    &lt 2 TAB    &lt 5 ENTER  &lt 3 BACKSPACE  &lt 4 DELETE
+                                      &lt 6 ESCAPE  &lt 1 SPACE    &lt 2 TAB    &lt 4 ENTER  &lt 3 BACKSPACE  &lt 5 DELETE
             >;
         };
 
@@ -267,15 +267,25 @@
             >;
         };
 
-        numrow {
+        symbols {
             bindings = <
-        &kp N1     &kp N2    &kp N3    &kp N4     &kp N5    &kp N6  &kp N7     &kp N8    &kp N9    &kp N0
-        &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &trans    &trans  &kp RSHFT  &kp RGUI  &kp LALT  &kp RCTRL
-&trans  &trans     &trans    &trans    &trans     &trans    &trans  &trans     &trans    &trans    &trans     &trans
-                             &trans    &trans     &trans    &trans  &trans     &trans
+        &kp LEFT_BRACE  &kp AMPERSAND    &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &trans  &trans     &trans    &trans    &trans
+        &kp COLON       &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS           &trans  &kp RSHFT  &kp RGUI  &kp LALT  &kp RCTRL
+&trans  &kp TILDE       &kp EXCLAMATION  &kp AT                &kp HASH               &kp PIPE           &trans  &trans     &trans    &trans    &trans     &trans
+                                         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE     &trans  &trans     &trans
             >;
 
-            label = "NUMROW";
+            label = "SYMBOLS";
+        };
+
+        fun {
+            display-name = "FUN";
+            bindings = <
+           &kp F12  &kp F1  &kp F2             &kp F3     &kp PRINTSCREEN    &trans  &trans      &trans    &trans    &trans
+           &kp F11  &kp F4  &kp F5             &kp F6     &kp SCROLLLOCK     &trans  &kp LSHIFT  &kp RGUI  &kp LALT  &kp RCTRL
+&kp ENTER  &kp F10  &kp F7  &kp F8             &kp F9     &kp PAUSE_BREAK    &trans  &trans      &trans    &trans    &trans     &trans
+                            &kp K_APPLICATION  &kp SPACE  &kp TAB            &trans  &trans      &trans
+            >;
         };
 
         adjust {
@@ -289,15 +299,15 @@
             label = "ADJUST";
         };
 
-        symbols {
+        numrow {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+        &kp N1     &kp N2    &kp N3    &kp N4     &kp N5    &kp N6  &kp N7     &kp N8    &kp N9    &kp N0
+        &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &trans    &trans  &kp RSHFT  &kp RGUI  &kp LALT  &kp RCTRL
+&trans  &trans     &trans    &trans    &trans     &trans    &trans  &trans     &trans    &trans    &trans     &trans
+                             &trans    &trans     &trans    &trans  &trans     &trans
             >;
 
-            label = "SYMBOLS";
+            label = "NUMROW";
         };
     };
 };
