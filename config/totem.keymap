@@ -47,7 +47,6 @@
 #define KEYS_R RT0 RT1 RT2 RT3 RT4 RM0 RM1 RM2 RM3 RM4 RB0 RB1 RB2 RB3 RB4  // right-hand keys
 #define KEYS_T LH2 LH1 LH0 RH0 RH1 RH2                                      // thumb keys
 
-
 &mmv {
     time-to-max-speed-ms = <120>;
     acceleration-exponent = <6>;
@@ -79,13 +78,13 @@
     };
 };
 
-&lt { 
-    tapping-term-ms = <TAPPING_TERM>; 
+&lt {
+    tapping-term-ms = <TAPPING_TERM>;
     quick-tap-ms = <TAPPING_TERM_FAST>;
 };
 
-&mt { 
-    tapping-term-ms = <TAPPING_TERM>; 
+&mt {
+    tapping-term-ms = <TAPPING_TERM>;
     quick-tap-ms = <TAPPING_TERM_FAST>;
 };
 
@@ -367,12 +366,42 @@
         wm {
             bindings = <
                    &kp LA(RA(NUMBER_1))  &kp LA(RA(NUMBER_2))  &kp LA(RA(NUMBER_3))  &kp LA(RA(NUMBER_4))  &kp LA(RA(NUMBER_5))    &kp LA(RA(NUMBER_6))  &kp LA(RA(NUMBER_7))  &kp LA(RA(N8))  &kp LA(RA(N9))  &kp LA(RA(N0))
-                   &kp LCTRL             &kp LALT              &kp LGUI              &kp LSHFT             &trans                  &kp H                 &hm_r RSHIFT J          &hm_r RGUI K      &hm_r RALT L      &kp RCTRL
+                   &kp LCTRL             &kp LALT              &kp LGUI              &kp LSHFT             &trans                  &kp H                 &hm_r RSHIFT J        &hm_r RGUI K    &hm_r RALT L    &kp RCTRL
 &kp LA(RA(MINUS))  &trans                &trans                &trans                &trans                &trans                  &trans                &trans                &trans          &trans          &trans          &kp LA(RA(EQUAL))
                                                                &trans                &trans                &trans                  &trans                &trans                &trans
             >;
 
             label = "WM";
+        };
+
+        mousefast {
+            label = "MOUSEFAST";
+            bindings = <
+        &trans     &trans    &trans    &trans     &trans    &kp K_REDO      &kp K_PASTE     &kp K_COPY    &kp K_CUT        &kp K_UNDO
+        &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&trans  &trans     &trans    &trans    &trans     &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans      &trans
+                             &trans    &trans     &trans    &mkp RCLK       &mkp LCLK       &mkp MCLK
+            >;
+        };
+
+        mouseslow {
+            label = "MOUSESLOW";
+            bindings = <
+        &trans     &trans    &trans    &trans     &trans    &kp K_REDO      &kp K_PASTE     &kp K_COPY    &kp K_CUT        &kp K_UNDO
+        &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&trans  &trans     &trans    &trans    &trans     &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans      &trans
+                             &trans    &trans     &trans    &mkp RCLK       &mkp LCLK       &mkp MCLK
+            >;
+        };
+
+        mousexslow {
+            label = "MOUSEXSLOW";
+            bindings = <
+        &trans     &trans    &trans    &trans     &trans    &kp K_REDO      &kp K_PASTE     &kp K_COPY    &kp K_CUT        &kp K_UNDO
+        &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&trans  &trans     &trans    &trans    &trans     &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans      &trans
+                             &trans    &trans     &trans    &mkp RCLK       &mkp LCLK       &mkp MCLK
+            >;
         };
     };
 };
