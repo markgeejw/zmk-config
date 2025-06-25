@@ -345,9 +345,9 @@ layers:
   - Alt+AltGr+.
   - Alt+AltGr+/
   - Alt+AltGr+=
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+AltGr+ESCAPE
+  - Alt+AltGr+SPACE
+  - AltGr+Alt+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}

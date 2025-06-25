@@ -369,7 +369,7 @@
                    &kp LA(RA(NUMBER_1))   &kp LA(RA(NUMBER_2))  &kp LA(RA(NUMBER_3))  &kp LA(RA(NUMBER_4))   &kp LA(RA(NUMBER_5))    &kp LA(RA(NUMBER_6))  &kp LA(RA(NUMBER_7))    &kp LA(RA(N8))        &kp LA(RA(N9))        &kp LA(RA(N0))
                    &hm_l LCTRL RA(LA(A))  &hm_l LALT RA(LA(S))  &hm_l LGUI LA(RA(D))  &hm_l LSHFT LA(RA(F))  &kp LA(RA(G))           &kp RA(LA(H))         &hm_r RSHIFT LA(RA(J))  &hm_r RGUI LA(RA(K))  &hm_r RALT RA(LA(L))  &hm_r RCTRL LA(RA(SEMICOLON))
 &kp LA(RA(MINUS))  &kp LA(RA(Z))          &kp LA(RA(X))         &kp LA(RA(C))         &kp LA(RA(V))          &kp LA(RA(B))           &kp LA(RA(N))         &kp LA(RA(M))           &kp LA(RA(COMMA))     &kp LA(RA(PERIOD))    &kp LA(RA(SLASH))              &kp LA(RA(EQUAL))
-                                                                &trans                &trans                 &trans                  &trans                &trans                  &trans
+                                                                &kp LA(RA(ESCAPE))    &kp LA(RA(SPACE))      &kp RA(LA(TAB))         &trans                &trans                  &trans
             >;
 
             label = "WM";
