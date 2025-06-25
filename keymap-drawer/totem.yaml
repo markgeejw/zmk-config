@@ -235,26 +235,27 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   ADJUST:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: LCTRL, h: toggle}
+  - LALT
+  - LGUI
+  - LSHFT
   - {t: ▽, type: trans}
   - PREV
   - VOL DN
-  - VOLUME UP
+  - VOL UP
+  - LALT
   - NEXT
   - {t: ▽, type: trans}
-  - RIGHT SHIFT
-  - RGUI
-  - LALT
-  - RCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -266,13 +267,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
-  - {t: MUTE, type: held}
-  - PLAY PAUSE
+  - {t: ▽, type: trans}
   - STOP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PLAY PAUSE
+  - MUTE
   NUMROW:
   - '1'
   - '2'

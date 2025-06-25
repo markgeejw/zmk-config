@@ -293,10 +293,10 @@
 
         adjust {
             bindings = <
-        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4    &trans  &trans           &trans    &trans    &trans
-        &trans        &kp K_PREV    &kp C_VOL_DN  &kp C_VOLUME_UP   &kp K_NEXT      &trans  &kp RIGHT_SHIFT  &kp RGUI  &kp LALT  &kp RCTRL
-&trans  &trans        &trans        &trans        &trans            &trans          &trans  &trans           &trans    &trans    &trans     &trans
-                                    &kp K_MUTE    &kp K_PLAY_PAUSE  &kp K_STOP      &trans  &trans           &trans
+        &trans     &trans    &trans    &trans     &trans    &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+        &kt LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &trans    &kp K_PREV    &kp C_VOL_DN      &kp C_VOL_UP  &kp LALT      &kp K_NEXT
+&trans  &trans     &trans    &trans    &trans     &trans    &trans        &trans            &trans        &trans        &trans        &trans
+                             &trans    &trans     &trans    &kp K_STOP    &kp K_PLAY_PAUSE  &kp K_MUTE
             >;
 
             label = "ADJUST";
