@@ -12,6 +12,8 @@
 
 #include "zmk-helpers/helper.h"
 
+#define TAPPING_TERM 180
+#define TAPPING_TERM_FAST 150
 #define HM_TAPPING_TERM 180
 #define HM_TAPPING_TERM_FAST 150
 #define HM_PRIOR_IDLE 120
@@ -21,8 +23,14 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 900  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 900  // default: 10 - same as move for smooth scroll
 #define BASE 0
-#define NUMS 1
-#define DANGER 2
+#define NAV 1
+#define MOUSE 2
+#define NUMPAD 3
+#define SYMBOLS 4
+#define FUN 5
+#define ADJUST 6
+#define NUMROW 7
+#define WM 8
 
 /* use helper macros to define left and right hand keys */
 
@@ -36,7 +44,47 @@
 #define KEYS_R RT0 RT1 RT2 RT3 RT4 RM0 RM1 RM2 RM3 RM4 RB0 RB1 RB2 RB3 RB4  // right-hand keys
 #define KEYS_T LH2 LH1 LH0 RH0 RH1 RH2                                      // thumb keys
 
-&lt { tapping-term-ms = <175>; };
+
+&mmv {
+    time-to-max-speed-ms = <120>;
+    acceleration-exponent = <6>;
+};
+
+&msc {
+    time-to-max-speed-ms = <80>;
+    acceleration-exponent = <10>;
+};
+
+&mmv_input_listener {
+    set_mouse_fast {
+        layers = <MOUSEFAST>;
+        input-processors = <&zip_xy_scaler 2 1>;
+    };
+};
+
+&mmv_input_listener {
+    set_mouse_slow {
+        layers = <MOUSESLOW>;
+        input-processors = <&zip_xy_scaler 1 2>;
+    };
+};
+
+&mmv_input_listener {
+    set_mouse_extra_slow {
+        layers = <MOUSEXSLOW>;
+        input-processors = <&zip_xy_scaler 1 4>;
+    };
+};
+
+&lt { 
+    tapping-term-ms = <TAPPING_TERM>; 
+    quick-tap-ms = <TAPPING_TERM_FAST>;
+};
+
+&mt { 
+    tapping-term-ms = <TAPPING_TERM>; 
+    quick-tap-ms = <TAPPING_TERM_FAST>;
+};
 
 / {
     combos {
@@ -316,7 +364,7 @@
         wm {
             bindings = <
                    &kp LA(RA(NUMBER_1))  &kp LA(RA(NUMBER_2))  &kp LA(RA(NUMBER_3))  &kp LA(RA(NUMBER_4))  &kp LA(RA(NUMBER_5))    &kp LA(RA(NUMBER_6))  &kp LA(RA(NUMBER_7))  &kp LA(RA(N8))  &kp LA(RA(N9))  &kp LA(RA(N0))
-                   &kp LCTRL             &kp LALT              &kp LGUI              &kp LSHFT             &trans                  &kp H                 &mt RSHIFT J          &mt RGUI K      &mt RALT L      &kp RCTRL
+                   &kp LCTRL             &kp LALT              &kp LGUI              &kp LSHFT             &trans                  &kp H                 &hm_r RSHIFT J          &hm_r RGUI K      &hm_r RALT L      &kp RCTRL
 &kp LA(RA(MINUS))  &trans                &trans                &trans                &trans                &trans                  &trans                &trans                &trans          &trans          &trans          &kp LA(RA(EQUAL))
                                                                &trans                &trans                &trans                  &trans                &trans                &trans
             >;
