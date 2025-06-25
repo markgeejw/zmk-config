@@ -38,7 +38,7 @@ layers:
   - {t: TAB, h: MOUSE}
   - {t: ENTER, h: SYMBOLS}
   - {t: BACKSPACE, h: NUMPAD}
-  - {t: DELETE, h: FUN}
+  - {t: DELETE, h: WM}
   NAV:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -152,7 +152,7 @@ layers:
   - {t: ▽, type: trans}
   - .
   - {t: '0', h: NUMROW}
-  - '-'
+  - {t: '-', h: FUN}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -230,10 +230,10 @@ layers:
   - {t: ▽, type: trans}
   - APPLICATION
   - SPACE
-  - TAB
-  - {t: ▽, type: trans}
+  - {t: TAB, type: held}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   ADJUST:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -312,6 +312,45 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  WM:
+  - Alt+AltGr+1
+  - Alt+AltGr+2
+  - Alt+AltGr+3
+  - Alt+AltGr+4
+  - Alt+AltGr+5
+  - Alt+AltGr+6
+  - Alt+AltGr+7
+  - Alt+AltGr+8
+  - Alt+AltGr+9
+  - Alt+AltGr+0
+  - LCTRL
+  - LALT
+  - LGUI
+  - LSHFT
+  - {t: ▽, type: trans}
+  - H
+  - {t: J, h: RSHIFT}
+  - {t: K, h: RGUI}
+  - {t: L, h: RALT}
+  - RCTRL
+  - Alt+AltGr+-
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Alt+AltGr+=
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
 combos:
 - p: [2, 3]
   k: (

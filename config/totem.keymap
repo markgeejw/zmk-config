@@ -234,7 +234,7 @@
          &kp Q          &kp W         &kp E         &kp R          &kp T        &kp Y        &kp U            &kp I         &kp O         &kp P
          &hm_l LCTRL A  &hm_l LALT S  &hm_l LGUI D  &hm_l LSHFT F  &kp G        &kp H        &hm_r RSHFT J    &hm_r RGUI K  &hm_r LALT L  &hm_r RCTRL SEMI
 &kp TAB  &kp Z          &kp X         &kp C         &kp V          &kp B        &kp N        &kp M            &kp COMMA     &kp DOT       &kp SLASH         &kp SINGLE_QUOTE
-                                      &lt 6 ESCAPE  &lt 1 SPACE    &lt 2 TAB    &lt 4 ENTER  &lt 3 BACKSPACE  &lt 5 DELETE
+                                      &lt 6 ESCAPE  &lt 1 SPACE    &lt 2 TAB    &lt 4 ENTER  &lt 3 BACKSPACE  &lt 8 DELETE
             >;
         };
 
@@ -266,7 +266,7 @@
            &kp LEFT_BRACKET  &kp N7  &kp N8      &kp N9          &kp RIGHT_BRACKET    &trans  &trans      &trans    &trans    &trans
            &kp SEMICOLON     &kp N4  &kp N5      &kp N6          &kp EQUAL            &trans  &kp LSHIFT  &kp RGUI  &kp LALT  &kp RCTRL
 &kp ENTER  &kp GRAVE         &kp N1  &kp N2      &kp N3          &kp BACKSLASH        &trans  &trans      &trans    &trans    &trans     &trans
-                                     &kp PERIOD  &lt 7 NUMBER_0  &kp MINUS            &trans  &trans      &trans
+                                     &kp PERIOD  &lt 7 NUMBER_0  &lt 5 MINUS          &trans  &trans      &trans
             >;
         };
 
@@ -311,6 +311,17 @@
             >;
 
             label = "NUMROW";
+        };
+
+        wm {
+            bindings = <
+                   &kp LA(RA(NUMBER_1))  &kp LA(RA(NUMBER_2))  &kp LA(RA(NUMBER_3))  &kp LA(RA(NUMBER_4))  &kp LA(RA(NUMBER_5))    &kp LA(RA(NUMBER_6))  &kp LA(RA(NUMBER_7))  &kp LA(RA(N8))  &kp LA(RA(N9))  &kp LA(RA(N0))
+                   &kp LCTRL             &kp LALT              &kp LGUI              &kp LSHFT             &trans                  &kp H                 &mt RSHIFT J          &mt RGUI K      &mt RALT L      &kp RCTRL
+&kp LA(RA(MINUS))  &trans                &trans                &trans                &trans                &trans                  &trans                &trans                &trans          &trans          &trans          &kp LA(RA(EQUAL))
+                                                               &trans                &trans                &trans                  &trans                &trans                &trans
+            >;
+
+            label = "WM";
         };
     };
 };
