@@ -323,27 +323,27 @@ layers:
   - Alt+AltGr+8
   - Alt+AltGr+9
   - Alt+AltGr+0
-  - LCTRL
-  - LALT
-  - LGUI
-  - LSHFT
-  - {t: ▽, type: trans}
-  - H
-  - {t: J, h: RSHIFT}
-  - {t: K, h: RGUI}
-  - {t: L, h: RALT}
-  - RCTRL
+  - {t: AltGr+Alt+A, h: LCTRL}
+  - {t: AltGr+Alt+S, h: LALT}
+  - {t: Alt+AltGr+D, h: LGUI}
+  - {t: Alt+AltGr+F, h: LSHFT}
+  - Alt+AltGr+G
+  - AltGr+Alt+H
+  - {t: Alt+AltGr+J, h: RSHIFT}
+  - {t: Alt+AltGr+K, h: RGUI}
+  - {t: AltGr+Alt+L, h: RALT}
+  - {t: Alt+AltGr+;, h: RCTRL}
   - Alt+AltGr+-
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+AltGr+Z
+  - Alt+AltGr+X
+  - Alt+AltGr+C
+  - Alt+AltGr+V
+  - Alt+AltGr+B
+  - Alt+AltGr+N
+  - Alt+AltGr+M
+  - Alt+AltGr+,
+  - Alt+AltGr+.
+  - Alt+AltGr+/
   - Alt+AltGr+=
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
