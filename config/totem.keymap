@@ -31,6 +31,9 @@
 #define ADJUST 6
 #define NUMROW 7
 #define WM 8
+#define MOUSEFAST 9
+#define MOUSESLOW 10
+#define MOUSEXSLOW 11
 
 /* use helper macros to define left and right hand keys */
 
