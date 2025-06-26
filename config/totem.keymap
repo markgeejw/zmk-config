@@ -294,7 +294,7 @@
             bindings = <
         &trans     &trans    &trans    &trans     &trans    &kp K_REDO      &kp K_PASTE     &kp K_COPY    &kp K_CUT        &kp K_UNDO
         &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
-&trans  &trans     &mo 11    &mo 9     &mo 10     &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans      &trans
+&trans  &trans     &to 11    &to 9     &to 10     &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans      &trans
                              &trans    &trans     &trans    &mkp RCLK       &mkp LCLK       &mkp MCLK
             >;
 
