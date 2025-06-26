@@ -48,16 +48,6 @@
 #define KEYS_R RT0 RT1 RT2 RT3 RT4 RM0 RM1 RM2 RM3 RM4 RB0 RB1 RB2 RB3 RB4  // right-hand keys
 #define KEYS_T LH2 LH1 LH0 RH0 RH1 RH2                                      // thumb keys
 
-&mmv {
-    time-to-max-speed-ms = <120>;
-    acceleration-exponent = <6>;
-};
-
-&msc {
-    time-to-max-speed-ms = <80>;
-    acceleration-exponent = <10>;
-};
-
 &mmv_input_listener {
     set_mouse_fast {
         layers = <MOUSEFAST>;
