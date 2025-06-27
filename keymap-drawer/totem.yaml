@@ -45,11 +45,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - REDO
-  - PASTE
-  - COPY
-  - CUT
-  - UNDO
+  - AC REDO
+  - AC PASTE
+  - AC COPY
+  - AC CUT
+  - AC UNDO
   - LCTRL
   - LALT
   - LGUI
