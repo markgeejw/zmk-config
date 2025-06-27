@@ -38,7 +38,7 @@ layers:
   - {t: TAB, h: MOUSE}
   - {t: ENTER, h: SYMBOLS}
   - {t: BACKSPACE, h: NUMPAD}
-  - {t: DELETE, h: Alt+RALT}
+  - {t: DELETE, h: FUN}
   NAV:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -230,10 +230,10 @@ layers:
   - {t: ▽, type: trans}
   - APPLICATION
   - SPACE
-  - {t: TAB, type: held}
+  - TAB
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
   ADJUST:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
