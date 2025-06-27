@@ -272,10 +272,10 @@
         base {
             display-name = "BASE";
             bindings = <
-         &kp Q          &kp W         &kp E         &kp R          &kp T        &kp Y        &kp U            &kp I         &kp O         &kp P
-         &hm_l LCTRL A  &hm_l LALT S  &hm_l LGUI D  &hm_l LSHFT F  &kp G        &kp H        &hm_r RSHFT J    &hm_r RGUI K  &hm_r LALT L  &hm_r RCTRL SEMI
-&kp TAB  &kp Z          &kp X         &kp C         &kp V          &kp B        &kp N        &kp M            &kp COMMA     &kp DOT       &kp SLASH         &kp SINGLE_QUOTE
-                                      &lt 6 ESCAPE  &lt 1 SPACE    &lt 2 TAB    &lt 4 ENTER  &lt 3 BACKSPACE  &lt 8 DELETE
+         &kp Q          &kp W         &kp E         &kp R          &kp T        &kp Y        &kp U            &kp I                &kp O         &kp P
+         &hm_l LCTRL A  &hm_l LALT S  &hm_l LGUI D  &hm_l LSHFT F  &kp G        &kp H        &hm_r RSHFT J    &hm_r RGUI K         &hm_r LALT L  &hm_r RCTRL SEMI
+&kp TAB  &kp Z          &kp X         &kp C         &kp V          &kp B        &kp N        &kp M            &kp COMMA            &kp DOT       &kp SLASH         &kp SINGLE_QUOTE
+                                      &lt 6 ESCAPE  &lt 1 SPACE    &lt 2 TAB    &lt 4 ENTER  &lt 3 BACKSPACE  &mt LA(RALT) DELETE
             >;
         };
 
@@ -334,10 +334,10 @@
 
         adjust {
             bindings = <
-        &trans     &trans    &trans    &trans     &trans    &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-        &kt LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &trans    &kp K_PREV    &kp C_VOL_DN      &kp C_VOL_UP  &kp LALT      &kp K_NEXT
-&trans  &trans     &trans    &trans    &trans     &trans    &trans        &trans            &trans        &trans        &trans        &trans
-                             &trans    &trans     &trans    &kp K_STOP    &kp K_PLAY_PAUSE  &kp K_MUTE
+        &trans     &trans    &trans    &trans     &trans    &bt BT_SEL 0              &bt BT_SEL 1          &bt BT_SEL 2          &bt BT_SEL 3              &bt BT_SEL 4
+        &kt LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &trans    &kp K_PREV                &kp C_VOL_DN          &kp C_VOL_UP          &hm_r LALT K_NEXT         &trans
+&trans  &trans     &trans    &trans    &trans     &trans    &kp C_BRIGHTNESS_MINIMUM  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_MAXIMUM  &trans        &trans
+                             &trans    &trans     &trans    &kp K_STOP                &kp K_PLAY_PAUSE      &kp K_MUTE
             >;
 
             label = "ADJUST";

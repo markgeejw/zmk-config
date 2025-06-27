@@ -38,7 +38,7 @@ layers:
   - {t: TAB, h: MOUSE}
   - {t: ENTER, h: SYMBOLS}
   - {t: BACKSPACE, h: NUMPAD}
-  - {t: DELETE, h: WM}
+  - {t: DELETE, h: Alt+RALT}
   NAV:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -253,8 +253,7 @@ layers:
   - PREV
   - VOL DN
   - VOL UP
-  - LALT
-  - NEXT
+  - {t: NEXT, h: LALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -262,9 +261,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BRIGHTNESS MINIMUM
+  - BRIGHTNESS DEC
+  - BRIGHTNESS INC
+  - BRIGHTNESS MAXIMUM
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -350,7 +350,7 @@ layers:
   - AltGr+Alt+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   MOUSEFAST:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
