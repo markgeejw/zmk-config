@@ -197,9 +197,9 @@ layers:
   - {t: ▽, type: trans}
   FUN:
   - F12
-  - F1
-  - F2
-  - F3
+  - F7
+  - F8
+  - F9
   - PRINTSCREEN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -218,9 +218,9 @@ layers:
   - RCTRL
   - ENTER
   - F10
-  - F7
-  - F8
-  - F9
+  - F1
+  - F2
+  - F3
   - PAUSE BREAK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
