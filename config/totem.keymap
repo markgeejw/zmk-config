@@ -175,7 +175,7 @@
         combo_underscore {
             timeout-ms = <COMBO_TERM_FAST>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
-            bindings = <&kp USCORE>;
+            bindings = <&kp UNDERSCORE>;
             key-positions = <15 26>;
         };
 
