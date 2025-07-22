@@ -224,28 +224,28 @@
         combo_undo {
             timeout-ms = <COMBO_TERM_FAST>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
-            bindings = <&kp LGUI Z>;
+            bindings = <&kp LG(Z)>;
             key-positions = <21 22>;
         };
 
         combo_redo {
             timeout-ms = <COMBO_TERM_FAST>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
-            bindings = <&kp LGUI LS Z>;
+            bindings = <&kp LG(LS(Z))>;
             key-positions = <24 25>;
         };
 
         combo_copy {
             timeout-ms = <COMBO_TERM_FAST>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
-            bindings = <&kp LGUI C>;
+            bindings = <&kp LG(C)>;
             key-positions = <22 23>;
         };
 
         combo_paste {
             timeout-ms = <COMBO_TERM_FAST>;
             require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
-            bindings = <&kp LGUI V>;
+            bindings = <&kp LG(V)>;
             key-positions = <23 24>;
         };
 

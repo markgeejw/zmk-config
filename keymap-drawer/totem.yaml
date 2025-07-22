@@ -508,13 +508,13 @@ combos:
 - p: [11, 12]
   k: TAB
 - p: [21, 22]
-  k: LGUI Z
+  k: Gui+Z
 - p: [24, 25]
-  k: LGUI LS Z
+  k: Gui+Sft+Z
 - p: [22, 23]
-  k: LGUI C
+  k: Gui+C
 - p: [23, 24]
-  k: LGUI V
+  k: Gui+V
 - p: [6, 7]
   k: BACKSPACE
 - p: [7, 8]
