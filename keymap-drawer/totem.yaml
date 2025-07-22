@@ -254,7 +254,7 @@ layers:
   - VOL DN
   - VOL UP
   - {t: NEXT, h: LALT}
-  - {t: ▽, type: trans}
+  - CAPSLOCK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -469,46 +469,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [2, 3]
-  k: (
-- p: [6, 7]
-  k: )
-- p: [0, 1]
-  k: '['
-- p: [8, 9]
-  k: ']'
-- p: [1, 2]
-  k: '{'
-- p: [7, 8]
-  k: '}'
-- p: [19, 10]
-  k: '&caps_word'
-- p: [0, 1, 2]
-  k: ESCAPE
-- p: [17, 16]
-  k: ESCAPE
-- p: [10, 11]
-  k: TAB
-- p: [29, 30]
-  k: '`'
-- p: [21, 22]
-  k: Gui+Z
-- p: [24, 25]
-  k: Sft+Gui+Z
-- p: [22, 23]
-  k: Gui+C
-- p: [23, 24]
-  k: Gui+V
-- p: [19, 18]
-  k: ''''
-- p: [3, 13]
-  k: _
-- p: [6, 16]
-  k: '-'
-- p: [7, 17]
-  k: +
-- p: [8, 18]
-  k: '='
 - p: [20, 31]
   k: BT CLR
   l: [ADJUST]
+- p: [1, 11]
+  k: '@'
