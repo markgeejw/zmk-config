@@ -265,7 +265,7 @@ layers:
   - BRIGHTNESS DEC
   - BRIGHTNESS INC
   - BRIGHTNESS MAXIMUM
-  - {t: BASE, h: toggle}
+  - {t: ▽, type: trans}
   - CAPSLOCK
   - {type: held}
   - {t: ▽, type: trans}
