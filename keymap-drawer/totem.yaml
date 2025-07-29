@@ -254,7 +254,7 @@ layers:
   - VOL DN
   - VOL UP
   - {t: NEXT, h: LALT}
-  - CAPSLOCK
+  - {t: gaming, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -265,8 +265,8 @@ layers:
   - BRIGHTNESS DEC
   - BRIGHTNESS INC
   - BRIGHTNESS MAXIMUM
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BASE, h: toggle}
+  - CAPSLOCK
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -468,6 +468,45 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  gaming:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - {t: ESCAPE, h: ADJUST}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ''''
+  - LCTRL
+  - SPACE
+  - LSHIFT
+  - ENTER
+  - LALT
+  - LGUI
 combos:
 - p: [1, 11]
   k: '@'
@@ -504,7 +543,7 @@ combos:
 - p: [1, 2]
   k: ESCAPE
 - p: [2, 3]
-  k: ADJUST
+  k: MOUSE
 - p: [11, 12]
   k: TAB
 - p: [21, 22]
