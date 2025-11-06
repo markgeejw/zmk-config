@@ -547,13 +547,13 @@ combos:
 - p: [11, 12]
   k: TAB
 - p: [21, 22]
-  k: Gui+Z
+  k: UNDO
 - p: [24, 25]
-  k: Gui+Sft+Z
+  k: REDO
 - p: [22, 23]
-  k: Gui+C
+  k: COPY
 - p: [23, 24]
-  k: Gui+V
+  k: PASTE
 - p: [6, 7]
   k: BACKSPACE
 - p: [7, 8]
