@@ -341,7 +341,7 @@
             bindings = <
                  &kp Q          &kp W         &kp E         &kp R          &kp T        &kp Y        &kp U            &kp I         &kp O         &kp P
                  &hm_l LCTRL A  &hm_l LALT S  &hm_l LGUI D  &hm_l LSHFT F  &kp G        &kp H        &hm_r RSHFT J    &hm_r RGUI K  &hm_r LALT L  &hm_r RCTRL SEMI
-&mt GRAVE GLOBE  &kp Z          &kp X         &kp C         &kp V          &kp B        &kp N        &kp M            &kp COMMA     &kp DOT       &kp SLASH         &kp SINGLE_QUOTE
+&mt GRAVE GLOBE  &kp Z          &kp X         &kp C         &kp V          &kp B        &kp N        &kp M            &kp COMMA     &kp DOT       &kp SLASH         &mt SINGLE_QUOTE GLOBE
                                               &lt 6 ESCAPE  &lt 1 SPACE    &lt 2 TAB    &lt 4 ENTER  &lt 3 BACKSPACE  &lt 5 DELETE
             >;
         };
