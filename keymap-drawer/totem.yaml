@@ -21,7 +21,7 @@ layers:
   - {t: K, h: RGUI}
   - {t: L, h: LALT}
   - {t: ;, h: RCTRL}
-  - '`'
+  - {t: GLOBE, h: '`'}
   - Z
   - X
   - C
